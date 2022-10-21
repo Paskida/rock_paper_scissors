@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Paskida - JS2 Assignment</title>
+  </head>
+  <body>
+    <div class="container">
+      <section class="title">
+        <h1 class="heading--1">Rock Paper Scissors</h1>
+      </section>
+      <section class="game">
+        <div class="game__choose">
+          <h2 class="heading--2">Choose an option</h2>
+
+          <img
+            class="game__choose--el game__choose--rock"
+            src="img/rock_img.png"
+            alt="Rock image"
+          />
+          <img
+            class="game__choose--el game__choose--scissors"
+            src="img/scissors_img.png"
+            alt="Scissors image"
+          />
+          <img
+            class="game__choose--el game__choose--paper"
+            src="img/paper_img.png"
+            alt="Paper image"
+          />
+        </div>
+        <div class="game__battle">
+          <div class="game__player">
+            <img
+              class="game__player--img"
+              src="img/white_img.png"
+              alt="Player final choice image"
+            />
+          </div>
+          <div class="game__vs">
+            <span>VS</span>
+          </div>
+          <div class="game__computer">
+            <img
+              class="game__computer--img"
+              src="img/white_img.png"
+              alt="Computer choice image"
+            />
+          </div>
+        </div>
+        <div class="game__result">Try to win!</div>
+        <button class="btn">New Game</button>
+      </section>
+      <section class="scores">
+        <div class="scores__player"></div>
+        <div class="scores__computer"></div>
+        <div class="scores__total"></div>
+      </section>
+    </div>
+  </body>
+</html>

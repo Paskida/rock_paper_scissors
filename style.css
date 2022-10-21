@@ -1,0 +1,111 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: #1b1a1a;
+  font-family: "Heebo", "Lato", sans-serif;
+  color: white;
+  text-transform: uppercase;
+}
+
+/*CONTAINER*/
+.container {
+  min-height: 80vh;
+  height: 100vh;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/*TITLE SECTION*/
+
+.heading--1 {
+  text-align: center;
+  padding: 1rem;
+  margin-top: 1rem;
+  text-transform: uppercase;
+  font-size: 2rem;
+  color: white;
+}
+
+/*GAME SECTION*/
+.game {
+  text-align: center;
+}
+
+.heading--2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  color: white;
+}
+
+.game__choose {
+  padding: 2rem;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.game__choose--el {
+  cursor: pointer;
+  margin: 0.5rem;
+  height: 9rem;
+}
+
+.game__choose--el:hover {
+  opacity: 0.5;
+  background-color: black;
+}
+
+.game__battle {
+  color: white;
+  padding: 2rem;
+
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.game__player--img,
+.game__computer--img {
+  height: 10rem;
+}
+.game__vs {
+  font-size: 2rem;
+  margin: 0 2rem;
+}
+
+.game__result {
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+.btn {
+  padding: 0.5rem 2rem 0.3rem;
+  margin-bottom: 1rem;
+  background-color: white;
+  color: black;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  transform: translateY(-5px);
+}
+
+.btn:hover {
+  background-color: rgb(179, 175, 175);
+}
+
+/*FINAL SCORE SECTION*/
+.scores {
+  border-top: 1px solid white;
+  text-align: center;
+  padding: 2rem;
+  font-size: 2rem;
+}
